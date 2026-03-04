@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: blacksmith-2vcpu-ubuntu-2204-arm
+    runs-on: ubuntu-22.04-arm
 
     container:
       image: archlinux:latest
